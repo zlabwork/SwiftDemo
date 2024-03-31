@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		D82AA5272BB96E6A0077BA8D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D82AA5262BB96E6A0077BA8D /* README.md */; };
+		D83DD3072BB97E280061E40D /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DD3062BB97E280061E40D /* Config.swift */; };
+		D83DD3092BB980400061E40D /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83DD3082BB980400061E40D /* Theme.swift */; };
 		D83F9A812B8A54B8000C764A /* SwiftDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83F9A802B8A54B8000C764A /* SwiftDemoApp.swift */; };
 		D83F9A832B8A54B8000C764A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83F9A822B8A54B8000C764A /* ContentView.swift */; };
 		D83F9A852B8A54B9000C764A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D83F9A842B8A54B9000C764A /* Assets.xcassets */; };
@@ -20,6 +22,8 @@
 
 /* Begin PBXFileReference section */
 		D82AA5262BB96E6A0077BA8D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D83DD3062BB97E280061E40D /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		D83DD3082BB980400061E40D /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		D83F9A7D2B8A54B8000C764A /* SwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D83F9A802B8A54B8000C764A /* SwiftDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDemoApp.swift; sourceTree = "<group>"; };
 		D83F9A822B8A54B8000C764A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -113,6 +117,8 @@
 		D83DD3012BB97B510061E40D /* Configs */ = {
 			isa = PBXGroup;
 			children = (
+				D83DD3062BB97E280061E40D /* Config.swift */,
+				D83DD3082BB980400061E40D /* Theme.swift */,
 			);
 			path = Configs;
 			sourceTree = "<group>";
@@ -237,8 +243,10 @@
 				D83F9A832B8A54B8000C764A /* ContentView.swift in Sources */,
 				D87A7B272BB9644B004FD731 /* SecondView.swift in Sources */,
 				D83F9A812B8A54B8000C764A /* SwiftDemoApp.swift in Sources */,
+				D83DD3072BB97E280061E40D /* Config.swift in Sources */,
 				D8DC44A22B8C941A000037CD /* ButtonView.swift in Sources */,
 				D83F9A922B8A560D000C764A /* ReadJsonFile.swift in Sources */,
+				D83DD3092BB980400061E40D /* Theme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
