@@ -13,6 +13,7 @@
 		D83F9A882B8A54B9000C764A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D83F9A872B8A54B9000C764A /* Preview Assets.xcassets */; };
 		D83F9A8F2B8A55A6000C764A /* Data in Resources */ = {isa = PBXBuildFile; fileRef = D83F9A8E2B8A55A6000C764A /* Data */; };
 		D83F9A922B8A560D000C764A /* ReadJsonFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83F9A912B8A560D000C764A /* ReadJsonFile.swift */; };
+		D87A7B272BB9644B004FD731 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A7B262BB9644B004FD731 /* SecondView.swift */; };
 		D8DC44A22B8C941A000037CD /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DC44A12B8C941A000037CD /* ButtonView.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +25,7 @@
 		D83F9A872B8A54B9000C764A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D83F9A8E2B8A55A6000C764A /* Data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Data; sourceTree = "<group>"; };
 		D83F9A912B8A560D000C764A /* ReadJsonFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadJsonFile.swift; sourceTree = "<group>"; };
+		D87A7B262BB9644B004FD731 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 		D8DC44A12B8C941A000037CD /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,6 +63,7 @@
 				D83F9A902B8A55D8000C764A /* Case */,
 				D83F9A802B8A54B8000C764A /* SwiftDemoApp.swift */,
 				D83F9A822B8A54B8000C764A /* ContentView.swift */,
+				D87A7B262BB9644B004FD731 /* SecondView.swift */,
 				D83F9A842B8A54B9000C764A /* Assets.xcassets */,
 				D83F9A862B8A54B9000C764A /* Preview Content */,
 			);
@@ -156,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D83F9A832B8A54B8000C764A /* ContentView.swift in Sources */,
+				D87A7B272BB9644B004FD731 /* SecondView.swift in Sources */,
 				D83F9A812B8A54B8000C764A /* SwiftDemoApp.swift in Sources */,
 				D8DC44A22B8C941A000037CD /* ButtonView.swift in Sources */,
 				D83F9A922B8A560D000C764A /* ReadJsonFile.swift in Sources */,
