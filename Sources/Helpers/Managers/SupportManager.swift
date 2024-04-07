@@ -11,5 +11,5 @@ class SupportManager {
     static let shared = SupportManager()
     
     let device = DeviceSupport()
-    let idUtils = IdUtils()
+    let idUtils = IdSupport()
 }

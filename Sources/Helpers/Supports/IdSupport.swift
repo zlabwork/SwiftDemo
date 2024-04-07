@@ -8,7 +8,7 @@
 
 import Foundation
 
-class IdUtils {
+class IdSupport {
     func genUUID() -> String {
         let uuid = UUID()
         return uuid.uuidString

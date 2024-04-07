@@ -21,7 +21,7 @@
 		D872DA032BB9CC9900E86FEB /* MyPackage in Frameworks */ = {isa = PBXBuildFile; productRef = D872DA022BB9CC9900E86FEB /* MyPackage */; };
 		D87A7B272BB9644B004FD731 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A7B262BB9644B004FD731 /* SecondView.swift */; };
 		D8D9B6672BC274E500D45D94 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D9B6662BC274E500D45D94 /* NetworkManager.swift */; };
-		D8D9B66B2BC2A4B600D45D94 /* IdUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D9B66A2BC2A4B600D45D94 /* IdUtils.swift */; };
+		D8D9B66B2BC2A4B600D45D94 /* IdSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D9B66A2BC2A4B600D45D94 /* IdSupport.swift */; };
 		D8D9B66D2BC2A83700D45D94 /* DeviceSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D9B66C2BC2A83700D45D94 /* DeviceSupport.swift */; };
 		D8D9B66F2BC2A87C00D45D94 /* SupportManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D9B66E2BC2A87C00D45D94 /* SupportManager.swift */; };
 		D8DC44A22B8C941A000037CD /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DC44A12B8C941A000037CD /* ButtonView.swift */; };
@@ -43,7 +43,7 @@
 		D872DA002BB9CA6A00E86FEB /* MyPackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = MyPackage; path = ../MyPackage; sourceTree = "<group>"; };
 		D87A7B262BB9644B004FD731 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 		D8D9B6662BC274E500D45D94 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
-		D8D9B66A2BC2A4B600D45D94 /* IdUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdUtils.swift; sourceTree = "<group>"; };
+		D8D9B66A2BC2A4B600D45D94 /* IdSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdSupport.swift; sourceTree = "<group>"; };
 		D8D9B66C2BC2A83700D45D94 /* DeviceSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceSupport.swift; sourceTree = "<group>"; };
 		D8D9B66E2BC2A87C00D45D94 /* SupportManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportManager.swift; sourceTree = "<group>"; };
 		D8DC44A12B8C941A000037CD /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
@@ -209,7 +209,7 @@
 		D8D9B6682BC2A36C00D45D94 /* Supports */ = {
 			isa = PBXGroup;
 			children = (
-				D8D9B66A2BC2A4B600D45D94 /* IdUtils.swift */,
+				D8D9B66A2BC2A4B600D45D94 /* IdSupport.swift */,
 				D8D9B66C2BC2A83700D45D94 /* DeviceSupport.swift */,
 			);
 			path = Supports;
@@ -300,7 +300,7 @@
 				D84138CD2BBDE2AA002AC325 /* HelpManager.swift in Sources */,
 				D83F9A832B8A54B8000C764A /* ContentView.swift in Sources */,
 				D8D9B6672BC274E500D45D94 /* NetworkManager.swift in Sources */,
-				D8D9B66B2BC2A4B600D45D94 /* IdUtils.swift in Sources */,
+				D8D9B66B2BC2A4B600D45D94 /* IdSupport.swift in Sources */,
 				D87A7B272BB9644B004FD731 /* SecondView.swift in Sources */,
 				D83F9A812B8A54B8000C764A /* SwiftDemoApp.swift in Sources */,
 				D83DD3072BB97E280061E40D /* Config.swift in Sources */,
