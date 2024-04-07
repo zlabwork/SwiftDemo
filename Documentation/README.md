@@ -9,6 +9,13 @@
 [Apple Design Resources](https://developer.apple.com/design/resources/)  
 
 
+## 折叠代码
+command + option + ⬅️   
+command + option + ➡️  
+command + option + shift + ⬅️  
+command + option + shift + ➡️  
+
+
 ## Docs
 https://developer.apple.com/cn/documentation/swiftui  
 https://developer.apple.com/documentation/swiftui  
