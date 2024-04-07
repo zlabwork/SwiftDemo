@@ -25,7 +25,7 @@ struct ButtonView: View {
             }
             
             Button(action: {
-                Help.network.networkApiRequest(url: "https://httpbin.org/get") { httpStatusCode, response in
+                Help.network.networkApiRequest(uri: "/get") { httpStatusCode, response in
                     debugPrint(httpStatusCode, response)
                 }
             }) {
