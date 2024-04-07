@@ -61,7 +61,7 @@ class NetworkManager {
         // mock data
         if Config.appMock {
             let mockFile = "Data/json" + uri + "." + method.rawValue
-            debugPrint(mockFile)
+            debugPrint("Read from mock file: " + mockFile)
             let data = Dir().readJsonFile(filename: mockFile)
             let json = try? JSON(data: data)
             completion(200, json ?? JSON())
