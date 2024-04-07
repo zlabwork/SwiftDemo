@@ -10,6 +10,7 @@ import Foundation
 class SupportManager {
     static let shared = SupportManager()
     
-    let device = DeviceSupport()
     let idUtils = IdSupport()
+    let file = FileSupport()
+    let device = DeviceSupport()
 }

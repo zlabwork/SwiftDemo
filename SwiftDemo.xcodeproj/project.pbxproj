@@ -15,7 +15,6 @@
 		D83F9A852B8A54B9000C764A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D83F9A842B8A54B9000C764A /* Assets.xcassets */; };
 		D83F9A882B8A54B9000C764A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D83F9A872B8A54B9000C764A /* Preview Assets.xcassets */; };
 		D83F9A8F2B8A55A6000C764A /* Data in Resources */ = {isa = PBXBuildFile; fileRef = D83F9A8E2B8A55A6000C764A /* Data */; };
-		D83F9A922B8A560D000C764A /* ReadJsonFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83F9A912B8A560D000C764A /* ReadJsonFile.swift */; };
 		D84138CD2BBDE2AA002AC325 /* HelpManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84138CC2BBDE2AA002AC325 /* HelpManager.swift */; };
 		D84138CF2BBDE497002AC325 /* Defined.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84138CE2BBDE497002AC325 /* Defined.swift */; };
 		D872DA032BB9CC9900E86FEB /* MyPackage in Frameworks */ = {isa = PBXBuildFile; productRef = D872DA022BB9CC9900E86FEB /* MyPackage */; };
@@ -24,6 +23,7 @@
 		D8D9B66B2BC2A4B600D45D94 /* IdSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D9B66A2BC2A4B600D45D94 /* IdSupport.swift */; };
 		D8D9B66D2BC2A83700D45D94 /* DeviceSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D9B66C2BC2A83700D45D94 /* DeviceSupport.swift */; };
 		D8D9B66F2BC2A87C00D45D94 /* SupportManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D9B66E2BC2A87C00D45D94 /* SupportManager.swift */; };
+		D8D9B6712BC2ABAA00D45D94 /* FileSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D9B6702BC2ABAA00D45D94 /* FileSupport.swift */; };
 		D8DC44A22B8C941A000037CD /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DC44A12B8C941A000037CD /* ButtonView.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,7 +37,6 @@
 		D83F9A842B8A54B9000C764A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D83F9A872B8A54B9000C764A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D83F9A8E2B8A55A6000C764A /* Data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Data; sourceTree = "<group>"; };
-		D83F9A912B8A560D000C764A /* ReadJsonFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadJsonFile.swift; sourceTree = "<group>"; };
 		D84138CC2BBDE2AA002AC325 /* HelpManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpManager.swift; sourceTree = "<group>"; };
 		D84138CE2BBDE497002AC325 /* Defined.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defined.swift; sourceTree = "<group>"; };
 		D872DA002BB9CA6A00E86FEB /* MyPackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = MyPackage; path = ../MyPackage; sourceTree = "<group>"; };
@@ -46,6 +45,7 @@
 		D8D9B66A2BC2A4B600D45D94 /* IdSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdSupport.swift; sourceTree = "<group>"; };
 		D8D9B66C2BC2A83700D45D94 /* DeviceSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceSupport.swift; sourceTree = "<group>"; };
 		D8D9B66E2BC2A87C00D45D94 /* SupportManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportManager.swift; sourceTree = "<group>"; };
+		D8D9B6702BC2ABAA00D45D94 /* FileSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileSupport.swift; sourceTree = "<group>"; };
 		D8DC44A12B8C941A000037CD /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -185,7 +185,6 @@
 			isa = PBXGroup;
 			children = (
 				D8DC44A12B8C941A000037CD /* ButtonView.swift */,
-				D83F9A912B8A560D000C764A /* ReadJsonFile.swift */,
 			);
 			path = Case;
 			sourceTree = "<group>";
@@ -210,6 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				D8D9B66A2BC2A4B600D45D94 /* IdSupport.swift */,
+				D8D9B6702BC2ABAA00D45D94 /* FileSupport.swift */,
 				D8D9B66C2BC2A83700D45D94 /* DeviceSupport.swift */,
 			);
 			path = Supports;
@@ -302,13 +302,13 @@
 				D8D9B6672BC274E500D45D94 /* NetworkManager.swift in Sources */,
 				D8D9B66B2BC2A4B600D45D94 /* IdSupport.swift in Sources */,
 				D87A7B272BB9644B004FD731 /* SecondView.swift in Sources */,
+				D8D9B6712BC2ABAA00D45D94 /* FileSupport.swift in Sources */,
 				D83F9A812B8A54B8000C764A /* SwiftDemoApp.swift in Sources */,
 				D83DD3072BB97E280061E40D /* Config.swift in Sources */,
 				D8D9B66D2BC2A83700D45D94 /* DeviceSupport.swift in Sources */,
 				D84138CF2BBDE497002AC325 /* Defined.swift in Sources */,
 				D8DC44A22B8C941A000037CD /* ButtonView.swift in Sources */,
 				D8D9B66F2BC2A87C00D45D94 /* SupportManager.swift in Sources */,
-				D83F9A922B8A560D000C764A /* ReadJsonFile.swift in Sources */,
 				D83DD3092BB980400061E40D /* Theme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

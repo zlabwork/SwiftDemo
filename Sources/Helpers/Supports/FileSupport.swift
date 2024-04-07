@@ -1,14 +1,13 @@
 //
-//  ReadJsonFile.swift
+//  FileSupport.swift
 //  SwiftDemo
 //
-//  Created by Joe on 2024/2/25.
+//  Created by Joe on 2024/4/7.
 //
 
 import Foundation
 
-class Dir {
-    
+class FileSupport {
     func readJsonFile(filename: String) -> Data {
         guard let path = Bundle.main.path(forResource: filename, ofType: "json") else { return Data() }
         do{
