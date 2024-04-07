@@ -58,6 +58,17 @@ class NetworkManager {
         parameters: Parameters? = nil,
         completion: @escaping (_ httpStatusCode: Int, _ response: JSON) -> ()
     ){
+        // mock data
+        if Config.appMock {
+            let mockFile = "Data/json" + uri + "." + method.rawValue
+            debugPrint(mockFile)
+            let data = Dir().readJsonFile(filename: mockFile)
+            let json = try? JSON(data: data)
+            completion(200, json ?? JSON())
+            return
+        }
+        
+        // request api
         let url = Config.apiHost + uri
         self.networkRequest(url: url, method: method, parameters: parameters) { httpStatusCode, response in
             let json = try? JSON(data: response ?? Data())
