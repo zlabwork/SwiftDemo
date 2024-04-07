@@ -13,6 +13,7 @@ class HelpManager {
     static let shared = HelpManager()
     
     let network = NetworkManager.shared
+    let support = SupportManager.shared
     
     func info(){
         print("this is HelpManager")
