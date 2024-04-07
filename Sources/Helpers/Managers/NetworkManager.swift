@@ -69,7 +69,7 @@ class NetworkManager {
         }
         
         // request api
-        let url = Config.apiHost + uri
+        let url = Config.Network.apiHost + uri
         self.networkRequest(url: url, method: method, parameters: parameters) { httpStatusCode, response in
             let json = try? JSON(data: response ?? Data())
             completion(httpStatusCode, json ?? JSON())
