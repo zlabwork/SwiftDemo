@@ -12,19 +12,15 @@ struct Config {
     static let name                 = "测试DemoApp"
     static let githubUrl            = "https://github.com"
     static let copyright            = "上海浅灰科技有限公司"
-    
-    struct Server {
-        let apiUrl: String
-        let apiKey: String
-    }
+    static let apiHost              = "https://httpbin.org"
+    static let apiKey               = "your_api_key"
+    static let appMock              = true
     
     static let shared = Config()
     
-    let server: Server
     let theme :Theme
     
     private init() {
-        self.server = Server(apiUrl: "https://example.com/api", apiKey: "your_api_key")
         self.theme = Theme()
     }
     

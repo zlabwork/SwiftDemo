@@ -11,6 +11,8 @@ struct SecondView: View {
     var body: some View {
         VStack {
             Text("这是第二个视图")
+            
+            ButtonView()
         }
         .navigationBarTitle("第二个视图")
     }
