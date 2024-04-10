@@ -106,12 +106,10 @@
 			children = (
 				D83DD3012BB97B510061E40D /* Configs */,
 				D83DD2FB2BB97A970061E40D /* Models */,
-				D83DD2FC2BB97AA10061E40D /* Views */,
-				D83DD2FD2BB97AA90061E40D /* Controllers */,
+				D83DD2FD2BB97AA90061E40D /* Modules */,
 				D83DD2FE2BB97AAF0061E40D /* Services */,
 				D83DD2FF2BB97AB80061E40D /* Helpers */,
 				D8A630E02BC59EDC00915E6C /* Package */,
-				D83F9A902B8A55D8000C764A /* Case */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -131,21 +129,15 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		D83DD2FC2BB97AA10061E40D /* Views */ = {
+		D83DD2FD2BB97AA90061E40D /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				D83F9A902B8A55D8000C764A /* Case */,
 				D8F9B50C2BC6607500010901 /* MainView.swift */,
 				D83F9A822B8A54B8000C764A /* ContentView.swift */,
 				D87A7B262BB9644B004FD731 /* SecondView.swift */,
 			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		D83DD2FD2BB97AA90061E40D /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controllers;
+			path = Modules;
 			sourceTree = "<group>";
 		};
 		D83DD2FE2BB97AAF0061E40D /* Services */ = {
