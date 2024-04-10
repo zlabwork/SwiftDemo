@@ -19,6 +19,25 @@
 		D84138CF2BBDE497002AC325 /* Defined.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84138CE2BBDE497002AC325 /* Defined.swift */; };
 		D872DA032BB9CC9900E86FEB /* MyPackage in Frameworks */ = {isa = PBXBuildFile; productRef = D872DA022BB9CC9900E86FEB /* MyPackage */; };
 		D87A7B272BB9644B004FD731 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A7B262BB9644B004FD731 /* SecondView.swift */; };
+		D8A630F72BC59F0300915E6C /* iconsmind.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A630E32BC59F0300915E6C /* iconsmind.swift */; };
+		D8A630F82BC59F0300915E6C /* icofont.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A630E42BC59F0300915E6C /* icofont.swift */; };
+		D8A630F92BC59F0300915E6C /* themify.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A630E52BC59F0300915E6C /* themify.swift */; };
+		D8A630FA2BC59F0300915E6C /* feather.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A630E62BC59F0300915E6C /* feather.swift */; };
+		D8A630FB2BC59F0300915E6C /* flaticon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A630E72BC59F0300915E6C /* flaticon.swift */; };
+		D8A630FC2BC59F0300915E6C /* dripicons.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A630E82BC59F0300915E6C /* dripicons.swift */; };
+		D8A630FD2BC59F0300915E6C /* lineawesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A630E92BC59F0300915E6C /* lineawesome.swift */; };
+		D8A630FE2BC59F0300915E6C /* material.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A630EA2BC59F0300915E6C /* material.swift */; };
+		D8A630FF2BC59F0300915E6C /* simple.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A630EB2BC59F0300915E6C /* simple.swift */; };
+		D8A631002BC59F0300915E6C /* MyIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A630EC2BC59F0300915E6C /* MyIcons.swift */; };
+		D8A631012BC59F0300915E6C /* icofont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8A630EE2BC59F0300915E6C /* icofont.ttf */; };
+		D8A631022BC59F0300915E6C /* feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8A630EF2BC59F0300915E6C /* feather.ttf */; };
+		D8A631032BC59F0300915E6C /* themify.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8A630F02BC59F0300915E6C /* themify.ttf */; };
+		D8A631042BC59F0300915E6C /* Material Design Icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8A630F12BC59F0300915E6C /* Material Design Icons.ttf */; };
+		D8A631052BC59F0300915E6C /* iconsmind.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8A630F22BC59F0300915E6C /* iconsmind.ttf */; };
+		D8A631062BC59F0300915E6C /* Flaticon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8A630F32BC59F0300915E6C /* Flaticon.ttf */; };
+		D8A631072BC59F0300915E6C /* LineAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8A630F42BC59F0300915E6C /* LineAwesome.ttf */; };
+		D8A631082BC59F0300915E6C /* dripicons-v2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8A630F52BC59F0300915E6C /* dripicons-v2.ttf */; };
+		D8A631092BC59F0300915E6C /* Simple-Line-Icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D8A630F62BC59F0300915E6C /* Simple-Line-Icons.ttf */; };
 		D8D9B6672BC274E500D45D94 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D9B6662BC274E500D45D94 /* NetworkManager.swift */; };
 		D8D9B66B2BC2A4B600D45D94 /* IdSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D9B66A2BC2A4B600D45D94 /* IdSupport.swift */; };
 		D8D9B66D2BC2A83700D45D94 /* DeviceSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D9B66C2BC2A83700D45D94 /* DeviceSupport.swift */; };
@@ -41,6 +60,25 @@
 		D84138CE2BBDE497002AC325 /* Defined.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defined.swift; sourceTree = "<group>"; };
 		D872DA002BB9CA6A00E86FEB /* MyPackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = MyPackage; path = ../MyPackage; sourceTree = "<group>"; };
 		D87A7B262BB9644B004FD731 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		D8A630E32BC59F0300915E6C /* iconsmind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iconsmind.swift; sourceTree = "<group>"; };
+		D8A630E42BC59F0300915E6C /* icofont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = icofont.swift; sourceTree = "<group>"; };
+		D8A630E52BC59F0300915E6C /* themify.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = themify.swift; sourceTree = "<group>"; };
+		D8A630E62BC59F0300915E6C /* feather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = feather.swift; sourceTree = "<group>"; };
+		D8A630E72BC59F0300915E6C /* flaticon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = flaticon.swift; sourceTree = "<group>"; };
+		D8A630E82BC59F0300915E6C /* dripicons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dripicons.swift; sourceTree = "<group>"; };
+		D8A630E92BC59F0300915E6C /* lineawesome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = lineawesome.swift; sourceTree = "<group>"; };
+		D8A630EA2BC59F0300915E6C /* material.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = material.swift; sourceTree = "<group>"; };
+		D8A630EB2BC59F0300915E6C /* simple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = simple.swift; sourceTree = "<group>"; };
+		D8A630EC2BC59F0300915E6C /* MyIcons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyIcons.swift; sourceTree = "<group>"; };
+		D8A630EE2BC59F0300915E6C /* icofont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = icofont.ttf; sourceTree = "<group>"; };
+		D8A630EF2BC59F0300915E6C /* feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = feather.ttf; sourceTree = "<group>"; };
+		D8A630F02BC59F0300915E6C /* themify.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = themify.ttf; sourceTree = "<group>"; };
+		D8A630F12BC59F0300915E6C /* Material Design Icons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Material Design Icons.ttf"; sourceTree = "<group>"; };
+		D8A630F22BC59F0300915E6C /* iconsmind.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconsmind.ttf; sourceTree = "<group>"; };
+		D8A630F32BC59F0300915E6C /* Flaticon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Flaticon.ttf; sourceTree = "<group>"; };
+		D8A630F42BC59F0300915E6C /* LineAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LineAwesome.ttf; sourceTree = "<group>"; };
+		D8A630F52BC59F0300915E6C /* dripicons-v2.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "dripicons-v2.ttf"; sourceTree = "<group>"; };
+		D8A630F62BC59F0300915E6C /* Simple-Line-Icons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Simple-Line-Icons.ttf"; sourceTree = "<group>"; };
 		D8D9B6662BC274E500D45D94 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		D8D9B66A2BC2A4B600D45D94 /* IdSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdSupport.swift; sourceTree = "<group>"; };
 		D8D9B66C2BC2A83700D45D94 /* DeviceSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceSupport.swift; sourceTree = "<group>"; };
@@ -70,9 +108,8 @@
 				D83DD2FD2BB97AA90061E40D /* Controllers */,
 				D83DD2FE2BB97AAF0061E40D /* Services */,
 				D83DD2FF2BB97AB80061E40D /* Helpers */,
-				D83DD3002BB97AD00061E40D /* Resources */,
+				D8A630E02BC59EDC00915E6C /* Package */,
 				D83F9A902B8A55D8000C764A /* Case */,
-				D83F9A802B8A54B8000C764A /* SwiftDemoApp.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -126,13 +163,6 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
-		D83DD3002BB97AD00061E40D /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
 		D83DD3012BB97B510061E40D /* Configs */ = {
 			isa = PBXGroup;
 			children = (
@@ -167,6 +197,7 @@
 		D83F9A7F2B8A54B8000C764A /* SwiftDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D83F9A802B8A54B8000C764A /* SwiftDemoApp.swift */,
 				D83F9A842B8A54B9000C764A /* Assets.xcassets */,
 				D83F9A862B8A54B9000C764A /* Preview Content */,
 			);
@@ -194,6 +225,56 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8A630E02BC59EDC00915E6C /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				D8A630E12BC59F0300915E6C /* MyIcons */,
+			);
+			path = Package;
+			sourceTree = "<group>";
+		};
+		D8A630E12BC59F0300915E6C /* MyIcons */ = {
+			isa = PBXGroup;
+			children = (
+				D8A630EC2BC59F0300915E6C /* MyIcons.swift */,
+				D8A630E22BC59F0300915E6C /* unicode */,
+				D8A630ED2BC59F0300915E6C /* fonts */,
+			);
+			path = MyIcons;
+			sourceTree = "<group>";
+		};
+		D8A630E22BC59F0300915E6C /* unicode */ = {
+			isa = PBXGroup;
+			children = (
+				D8A630E32BC59F0300915E6C /* iconsmind.swift */,
+				D8A630E42BC59F0300915E6C /* icofont.swift */,
+				D8A630E52BC59F0300915E6C /* themify.swift */,
+				D8A630E62BC59F0300915E6C /* feather.swift */,
+				D8A630E72BC59F0300915E6C /* flaticon.swift */,
+				D8A630E82BC59F0300915E6C /* dripicons.swift */,
+				D8A630E92BC59F0300915E6C /* lineawesome.swift */,
+				D8A630EA2BC59F0300915E6C /* material.swift */,
+				D8A630EB2BC59F0300915E6C /* simple.swift */,
+			);
+			path = unicode;
+			sourceTree = "<group>";
+		};
+		D8A630ED2BC59F0300915E6C /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D8A630EE2BC59F0300915E6C /* icofont.ttf */,
+				D8A630EF2BC59F0300915E6C /* feather.ttf */,
+				D8A630F02BC59F0300915E6C /* themify.ttf */,
+				D8A630F12BC59F0300915E6C /* Material Design Icons.ttf */,
+				D8A630F22BC59F0300915E6C /* iconsmind.ttf */,
+				D8A630F32BC59F0300915E6C /* Flaticon.ttf */,
+				D8A630F42BC59F0300915E6C /* LineAwesome.ttf */,
+				D8A630F52BC59F0300915E6C /* dripicons-v2.ttf */,
+				D8A630F62BC59F0300915E6C /* Simple-Line-Icons.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 		D8D9B6632BC272B300D45D94 /* Managers */ = {
@@ -267,6 +348,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = D83F9A742B8A54B8000C764A;
 			productRefGroup = D83F9A7E2B8A54B8000C764A /* Products */;
@@ -285,6 +367,15 @@
 			files = (
 				D83F9A882B8A54B9000C764A /* Preview Assets.xcassets in Resources */,
 				D83F9A852B8A54B9000C764A /* Assets.xcassets in Resources */,
+				D8A631042BC59F0300915E6C /* Material Design Icons.ttf in Resources */,
+				D8A631022BC59F0300915E6C /* feather.ttf in Resources */,
+				D8A631062BC59F0300915E6C /* Flaticon.ttf in Resources */,
+				D8A631072BC59F0300915E6C /* LineAwesome.ttf in Resources */,
+				D8A631092BC59F0300915E6C /* Simple-Line-Icons.ttf in Resources */,
+				D8A631012BC59F0300915E6C /* icofont.ttf in Resources */,
+				D8A631032BC59F0300915E6C /* themify.ttf in Resources */,
+				D8A631082BC59F0300915E6C /* dripicons-v2.ttf in Resources */,
+				D8A631052BC59F0300915E6C /* iconsmind.ttf in Resources */,
 				D82AA5272BB96E6A0077BA8D /* README.md in Resources */,
 				D83F9A8F2B8A55A6000C764A /* Data in Resources */,
 			);
@@ -299,13 +390,23 @@
 			files = (
 				D84138CD2BBDE2AA002AC325 /* HelpManager.swift in Sources */,
 				D83F9A832B8A54B8000C764A /* ContentView.swift in Sources */,
+				D8A631002BC59F0300915E6C /* MyIcons.swift in Sources */,
 				D8D9B6672BC274E500D45D94 /* NetworkManager.swift in Sources */,
+				D8A630FD2BC59F0300915E6C /* lineawesome.swift in Sources */,
 				D8D9B66B2BC2A4B600D45D94 /* IdSupport.swift in Sources */,
 				D87A7B272BB9644B004FD731 /* SecondView.swift in Sources */,
+				D8A630FA2BC59F0300915E6C /* feather.swift in Sources */,
 				D8D9B6712BC2ABAA00D45D94 /* FileSupport.swift in Sources */,
 				D83F9A812B8A54B8000C764A /* SwiftDemoApp.swift in Sources */,
+				D8A630FF2BC59F0300915E6C /* simple.swift in Sources */,
+				D8A630FB2BC59F0300915E6C /* flaticon.swift in Sources */,
+				D8A630FE2BC59F0300915E6C /* material.swift in Sources */,
+				D8A630FC2BC59F0300915E6C /* dripicons.swift in Sources */,
+				D8A630F72BC59F0300915E6C /* iconsmind.swift in Sources */,
 				D83DD3072BB97E280061E40D /* Config.swift in Sources */,
 				D8D9B66D2BC2A83700D45D94 /* DeviceSupport.swift in Sources */,
+				D8A630F82BC59F0300915E6C /* icofont.swift in Sources */,
+				D8A630F92BC59F0300915E6C /* themify.swift in Sources */,
 				D84138CF2BBDE497002AC325 /* Defined.swift in Sources */,
 				D8DC44A22B8C941A000037CD /* ButtonView.swift in Sources */,
 				D8D9B66F2BC2A87C00D45D94 /* SupportManager.swift in Sources */,
@@ -440,16 +541,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftDemo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -468,16 +574,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftDemo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
