@@ -44,6 +44,7 @@
 		D8D9B66F2BC2A87C00D45D94 /* SupportManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D9B66E2BC2A87C00D45D94 /* SupportManager.swift */; };
 		D8D9B6712BC2ABAA00D45D94 /* FileSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D9B6702BC2ABAA00D45D94 /* FileSupport.swift */; };
 		D8DC44A22B8C941A000037CD /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DC44A12B8C941A000037CD /* ButtonView.swift */; };
+		D8F9B50D2BC6607500010901 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F9B50C2BC6607500010901 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -85,6 +86,7 @@
 		D8D9B66E2BC2A87C00D45D94 /* SupportManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportManager.swift; sourceTree = "<group>"; };
 		D8D9B6702BC2ABAA00D45D94 /* FileSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileSupport.swift; sourceTree = "<group>"; };
 		D8DC44A12B8C941A000037CD /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		D8F9B50C2BC6607500010901 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 		D83DD2FC2BB97AA10061E40D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D8F9B50C2BC6607500010901 /* MainView.swift */,
 				D83F9A822B8A54B8000C764A /* ContentView.swift */,
 				D87A7B262BB9644B004FD731 /* SecondView.swift */,
 			);
@@ -389,6 +392,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D84138CD2BBDE2AA002AC325 /* HelpManager.swift in Sources */,
+				D8F9B50D2BC6607500010901 /* MainView.swift in Sources */,
 				D83F9A832B8A54B8000C764A /* ContentView.swift in Sources */,
 				D8A631002BC59F0300915E6C /* MyIcons.swift in Sources */,
 				D8D9B6672BC274E500D45D94 /* NetworkManager.swift in Sources */,
