@@ -45,6 +45,7 @@
 		D8D9B6712BC2ABAA00D45D94 /* FileSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D9B6702BC2ABAA00D45D94 /* FileSupport.swift */; };
 		D8DC44A22B8C941A000037CD /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DC44A12B8C941A000037CD /* ButtonView.swift */; };
 		D8F9B50D2BC6607500010901 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F9B50C2BC6607500010901 /* MainView.swift */; };
+		D8F9B5192BC677EF00010901 /* SegmentedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F9B5182BC677EF00010901 /* SegmentedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -87,6 +88,7 @@
 		D8D9B6702BC2ABAA00D45D94 /* FileSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileSupport.swift; sourceTree = "<group>"; };
 		D8DC44A12B8C941A000037CD /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		D8F9B50C2BC6607500010901 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		D8F9B5182BC677EF00010901 /* SegmentedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 			children = (
 				D83F9A902B8A55D8000C764A /* Case */,
 				D8F9B50C2BC6607500010901 /* MainView.swift */,
+				D8F9B5182BC677EF00010901 /* SegmentedView.swift */,
 				D83F9A822B8A54B8000C764A /* ContentView.swift */,
 				D87A7B262BB9644B004FD731 /* SecondView.swift */,
 			);
@@ -394,6 +397,7 @@
 				D8A630FA2BC59F0300915E6C /* feather.swift in Sources */,
 				D8D9B6712BC2ABAA00D45D94 /* FileSupport.swift in Sources */,
 				D83F9A812B8A54B8000C764A /* SwiftDemoApp.swift in Sources */,
+				D8F9B5192BC677EF00010901 /* SegmentedView.swift in Sources */,
 				D8A630FF2BC59F0300915E6C /* simple.swift in Sources */,
 				D8A630FB2BC59F0300915E6C /* flaticon.swift in Sources */,
 				D8A630FE2BC59F0300915E6C /* material.swift in Sources */,

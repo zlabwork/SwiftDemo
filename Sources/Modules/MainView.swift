@@ -10,14 +10,18 @@ import SwiftUI
 struct MainView: View {
     var body: some View {
         TabView {
-            SecondView()
-                .badge(2)
-                .tabItem {
-                    Label("Received", systemImage: "tray.and.arrow.down.fill")
-                }
             ContentView()
                 .tabItem {
-                    Label("Sent", systemImage: "tray.and.arrow.up.fill")
+                    Label("Sent", systemImage: "house")
+                }
+            SegmentedView()
+                .tabItem {
+                    Label("Received", systemImage: "command")
+                }
+            ContentView()
+                .badge(2)
+                .tabItem {
+                    Label("Sent", systemImage: "message.badge")
                 }
             SecondView()
                 .badge("!")
