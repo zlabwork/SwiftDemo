@@ -46,6 +46,8 @@
 		D8DC44A22B8C941A000037CD /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DC44A12B8C941A000037CD /* ButtonView.swift */; };
 		D8F9B50D2BC6607500010901 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F9B50C2BC6607500010901 /* MainView.swift */; };
 		D8F9B5192BC677EF00010901 /* SegmentedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F9B5182BC677EF00010901 /* SegmentedView.swift */; };
+		D8F9B51B2BC67A2500010901 /* SegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F9B51A2BC67A2500010901 /* SegmentedControl.swift */; };
+		D8F9B51D2BC67BF400010901 /* RefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F9B51C2BC67BF400010901 /* RefreshView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -89,6 +91,8 @@
 		D8DC44A12B8C941A000037CD /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		D8F9B50C2BC6607500010901 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		D8F9B5182BC677EF00010901 /* SegmentedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedView.swift; sourceTree = "<group>"; };
+		D8F9B51A2BC67A2500010901 /* SegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControl.swift; sourceTree = "<group>"; };
+		D8F9B51C2BC67BF400010901 /* RefreshView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +141,7 @@
 				D83F9A902B8A55D8000C764A /* Case */,
 				D8F9B50C2BC6607500010901 /* MainView.swift */,
 				D8F9B5182BC677EF00010901 /* SegmentedView.swift */,
+				D8F9B51A2BC67A2500010901 /* SegmentedControl.swift */,
 				D83F9A822B8A54B8000C764A /* ContentView.swift */,
 				D87A7B262BB9644B004FD731 /* SecondView.swift */,
 			);
@@ -214,6 +219,7 @@
 			isa = PBXGroup;
 			children = (
 				D8DC44A12B8C941A000037CD /* ButtonView.swift */,
+				D8F9B51C2BC67BF400010901 /* RefreshView.swift */,
 			);
 			path = Case;
 			sourceTree = "<group>";
@@ -408,7 +414,9 @@
 				D8A630F82BC59F0300915E6C /* icofont.swift in Sources */,
 				D8A630F92BC59F0300915E6C /* themify.swift in Sources */,
 				D84138CF2BBDE497002AC325 /* Defined.swift in Sources */,
+				D8F9B51B2BC67A2500010901 /* SegmentedControl.swift in Sources */,
 				D8DC44A22B8C941A000037CD /* ButtonView.swift in Sources */,
+				D8F9B51D2BC67BF400010901 /* RefreshView.swift in Sources */,
 				D8D9B66F2BC2A87C00D45D94 /* SupportManager.swift in Sources */,
 				D83DD3092BB980400061E40D /* Theme.swift in Sources */,
 			);
@@ -469,7 +477,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -526,7 +534,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;

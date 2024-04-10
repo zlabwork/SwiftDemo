@@ -18,7 +18,7 @@ struct MainView: View {
                 .tabItem {
                     Label("Received", systemImage: "command")
                 }
-            ContentView()
+            RefreshView()
                 .badge(2)
                 .tabItem {
                     Label("Sent", systemImage: "message.badge")
