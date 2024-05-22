@@ -19,6 +19,7 @@
 		D84138CF2BBDE497002AC325 /* Defined.swift in Sources */ = {isa = PBXBuildFile; fileRef = D84138CE2BBDE497002AC325 /* Defined.swift */; };
 		D872DA032BB9CC9900E86FEB /* MyPackage in Frameworks */ = {isa = PBXBuildFile; productRef = D872DA022BB9CC9900E86FEB /* MyPackage */; };
 		D87A7B272BB9644B004FD731 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87A7B262BB9644B004FD731 /* SecondView.swift */; };
+		D89095732BFE500B00F18943 /* FeedbackGeneratorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89095722BFE500B00F18943 /* FeedbackGeneratorView.swift */; };
 		D8A630F72BC59F0300915E6C /* iconsmind.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A630E32BC59F0300915E6C /* iconsmind.swift */; };
 		D8A630F82BC59F0300915E6C /* icofont.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A630E42BC59F0300915E6C /* icofont.swift */; };
 		D8A630F92BC59F0300915E6C /* themify.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A630E52BC59F0300915E6C /* themify.swift */; };
@@ -64,6 +65,7 @@
 		D84138CE2BBDE497002AC325 /* Defined.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defined.swift; sourceTree = "<group>"; };
 		D872DA002BB9CA6A00E86FEB /* MyPackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = MyPackage; path = ../MyPackage; sourceTree = "<group>"; };
 		D87A7B262BB9644B004FD731 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		D89095722BFE500B00F18943 /* FeedbackGeneratorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackGeneratorView.swift; sourceTree = "<group>"; };
 		D8A630E32BC59F0300915E6C /* iconsmind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iconsmind.swift; sourceTree = "<group>"; };
 		D8A630E42BC59F0300915E6C /* icofont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = icofont.swift; sourceTree = "<group>"; };
 		D8A630E52BC59F0300915E6C /* themify.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = themify.swift; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 				D8F9B51A2BC67A2500010901 /* SegmentedControl.swift */,
 				D83F9A822B8A54B8000C764A /* ContentView.swift */,
 				D87A7B262BB9644B004FD731 /* SecondView.swift */,
+				D89095722BFE500B00F18943 /* FeedbackGeneratorView.swift */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -412,6 +415,7 @@
 				D83DD3072BB97E280061E40D /* Config.swift in Sources */,
 				D8D9B66D2BC2A83700D45D94 /* DeviceSupport.swift in Sources */,
 				D8A630F82BC59F0300915E6C /* icofont.swift in Sources */,
+				D89095732BFE500B00F18943 /* FeedbackGeneratorView.swift in Sources */,
 				D8A630F92BC59F0300915E6C /* themify.swift in Sources */,
 				D84138CF2BBDE497002AC325 /* Defined.swift in Sources */,
 				D8F9B51B2BC67A2500010901 /* SegmentedControl.swift in Sources */,
@@ -477,7 +481,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -534,7 +538,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -553,17 +557,18 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = W62ZZLH4UL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwiftDemo/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_CFBundleDisplayName = "Swift Demo";
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -586,17 +591,18 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = W62ZZLH4UL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwiftDemo/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_CFBundleDisplayName = "Swift Demo";
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
