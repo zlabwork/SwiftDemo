@@ -18,6 +18,10 @@ struct ContentView: View {
                     .foregroundStyle(.tint)
                 Text("Hello, world!")
                 
+                NavigationLink(destination: FeedbackGeneratorView()) {
+                    Text("FeedbackGeneratorView")
+                }
+                
                 NavigationLink(destination: SecondView()) {
                     Text("切换到第二个视图")
                 }
